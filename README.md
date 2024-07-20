@@ -1,27 +1,32 @@
 # Angular17Base
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+Este proyecto está hecho en [Angular CLI](https://github.com/angular/angular-cli) con la versión 17.3.8.
 
-## Development server
+## Requisitos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+* Docker
 
-## Code scaffolding
+# Ejecución del Proyecto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+El proyecto está usando docker por su defecto en la versión de
+Angular 17 para poder ejecutar el proyecto debemos ejecutar los siguientes comandos:
 
-## Build
+### Compilar nuestra imagen de docker
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+$ docker-compose up --build
+```
 
-## Running unit tests
+### Ejecutar la aplicación
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+$ docker-compose up
+```
 
-## Running end-to-end tests
+### Respuesta del puerto
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+angular17-base  |   ➜  Local:   http://localhost:4200/
+```
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Una vez realizado ello nos brindará el puerto que usaremos para visualizarlo en nuestro navegador.
