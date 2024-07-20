@@ -26,7 +26,7 @@ $ docker-compose up
 ### Respuesta del puerto
 
 ```bash
-angular17-base  |   ➜  Local:   http://localhost:4200/
+angular17-base ➜  Local:   http://localhost:4200/
 ```
 
 Una vez realizado ello nos brindará el puerto que usaremos para visualizarlo en nuestro navegador.
